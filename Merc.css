@@ -1,0 +1,316 @@
+@font-face {
+    font-family: MercF;
+    src: url(MercTxt.ttf);
+}
+body{
+    margin: 0;
+    font-family: Arial, helvetica, sans-serif;
+}
+.nav{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background: black;
+}
+.logo{
+    margin-left: 17%;
+    padding-top: 12px;
+    background: #000000;
+    width: 17%;
+    height: 70%;
+    float: left;
+}
+img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.login{
+    color: #fff;
+    font-size: 15px;
+    margin-left: 40%;
+    padding-top: 2.2%;
+    float: left;
+    cursor: pointer;
+}
+.register{
+    margin-left: 78.5%;
+    height: 100%;
+    padding-top: 1.4%;
+}
+.reg-button{
+    width: 35%;
+    height: 45%;
+    background: #176DAF;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.reg-button:hover{
+    background: #2791e2;
+}
+.welcome_to{
+    position: absolute;
+    font-family: MercF;
+    top: 42%;
+    right: 35%;
+    text-align: center;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+}
+video{
+    margin-top: 80px;
+}
+.Mercdis{
+    font-size: 17px;
+    text-align: center;
+    font-family: Arial, helvetica, sans-serif;
+    font-weight: bold;
+}
+.content2{
+    width: 100%;
+    height: 450px;
+    margin-top: 3%;
+}
+.assist{
+    color: #878787;
+    padding-left: 47%;
+    font-size: small;
+}
+.Main_Heading{
+    text-align: center;
+    font-family: MercF;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.images{
+    width: 83%;
+    height: 80%;
+    margin-left: 17%;
+}
+.image{
+    margin-left: 2%;
+    width: 300px;
+    height: 165px;
+    float: left;
+}
+.image_h{
+    text-align: center;
+    font-size: 22px;
+    font-family: MerceF;
+    font-weight: lighter;
+}
+.image_dis{
+    text-align: center;
+    font-size: small;
+    color: #7c7c7c;
+}
+.content3{
+    margin-top: 70px;
+    margin-left: 23%;
+    width: 30%;
+    height: 220px;
+    float: left;
+}
+.content3_img{
+    width: 540px;
+    margin-left: -65px;
+    height: 300px;
+    float: left;
+}
+.connect{
+    color: #878787;
+    font-size: small;
+}
+.content3_h{
+    margin-top: 5px;
+    font-family: Mercf;
+    font-weight: lighter;
+}
+.content3_dis{
+    color: #7c7c7c;
+    width: 340px;
+    font-size: small;
+}
+.content4{
+    margin-top: 4%;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    float: left;
+}
+.inspire{
+    color: #878787;
+    font-size: small;
+}
+.content4_h{
+    font-family: mercF;
+    margin-top: 6px;
+    font-size: 25px;
+}
+.content4_dis{
+    width: 30%;
+    color: #7c7c7c;
+    margin-left: 33%;
+    font-size: small;
+}
+.img5{
+    margin-top: -15px ;
+    width: 100%;
+    height: 390px;
+    float: left;
+}
+.Footer{
+    width: 100%;
+    height: 80px;
+    margin-top: 865px;
+    background: #000000;
+}
+.customer{
+    position: absolute;
+    color: #fff;
+    margin-left: 14%;
+    margin-top: 2.5%;
+    font-weight: bold;
+    font-size: small;
+}
+.line{
+    position: absolute;
+    color: #7c7c7c;
+    margin-left: 35%;
+    margin-top: 2.5%;
+    font-weight: bold;
+    font-size: small;
+}
+.mbusa{
+    position: absolute;
+    color: #7c7c7c;
+    margin-left: 37%;
+    margin-top: 2.6%;
+    font-weight: bold;
+    font-size: x-small;
+    text-decoration: none;
+    cursor: pointer;
+}
+.mbusa:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.copy{
+    position: absolute;
+    color: #7c7c7c;
+    margin-left: 41.5%;
+    margin-top: 2.6%;
+    font-weight: bold;
+    font-size: x-small;
+}
+.legal{
+    position: absolute;
+    color: #7c7c7c;
+    margin-left: 53.5%;
+    margin-top: 2.6%;
+    font-weight: bold;
+    font-size: x-small;
+    text-decoration: none;
+    cursor: pointer;
+}
+.legal:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.line2{
+    position: absolute;
+    color: #7c7c7c;
+    margin-left: 60%;
+    margin-top: 2.5%;
+    font-weight: bold;
+    font-size: small;
+}
+.Software{
+    position: absolute;
+    color: #7c7c7c;
+    margin-left: 61%;
+    margin-top: 2.6%;
+    font-weight: bold;
+    font-size: x-small;
+    text-decoration: none;
+    cursor: pointer;
+}
+.Software:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.facebg{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: #7c7c7c;
+    margin-left: 75%;
+    margin-top: 1.8%;
+    border-radius: 50%;
+}
+.facebg:hover{
+    background: #fff;
+}
+.faceimg{
+    width: 20px;
+    height: 20px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.twibg{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: #7c7c7c;
+    margin-left: 79%;
+    margin-top: 1.8%;
+    border-radius: 50%;
+}
+.twibg:hover{
+    background: #fff;
+}
+.twiimg{
+    width: 20px;
+    height: 20px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.instabg{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: #7c7c7c;
+    margin-left: 83%;
+    margin-top: 1.8%;
+    border-radius: 50%;
+}
+.instabg:hover{
+    background: #fff;
+}
+.instaimg{
+    width: 20px;
+    height: 20px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
+.youbg{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    background: #7c7c7c;
+    margin-left: 87%;
+    margin-top: 1.8%;
+    border-radius: 50%;
+}
+.youbg:hover{
+    background: #fff;
+}
+.youimg{
+    width: 20px;
+    height: 20px;
+    margin-top: 20%;
+    margin-left: 20%;
+}
